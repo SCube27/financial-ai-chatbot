@@ -21,10 +21,13 @@ _(More features could be added with the time)_
         _f. yfinance_
     
     (Note : You should have latest python preinstalled in your PC)
+
     **To add the following libraries in Windows use following command**
+
     ```pip install json openai==0.28 pandas matplotlib streamlit yfinance```
 
     **To add the following libraries in MacOS use following command**
+    
     ```pip3 install json openai==0.28 pandas matplotlib streamlit yfinance```
 
 6. Once the libraries are installed, navigate to the repo using command line or open it in your code editor and use its terminal. Type the following command :

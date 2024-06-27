@@ -1,0 +1,6 @@
+json
+openai==0.28
+pandas
+matplotlib
+streamlit
+yfinance

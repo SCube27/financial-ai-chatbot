@@ -1,38 +1,46 @@
-### financial-ai-chatbot
-## A ChatGPT powered AI chatbot for assisting information regarding stocks
+# Financial AI Chatbot
+- A ChatGPT powered AI chatbot for assisting real time information regarding searched stocks.
 
-# **Features:**
-1. Gives the recent stock price taken by the yahoo finance API to the user.
-2. Plots the visualizations and graphs for the last year of a given stock.
-3. Can calculate *SMA*, *EMA*, *RSI* and *MACD* for given time frame of a specific stock asked.
-_(More features could be added with the time)_
+### Tech Stack Used:
+1. Python
+2. Pandas
+3. Matplotlib
+4. Streamlit
+5. Yahoo Finance API (yfinance)
+6. OpenAI API (openai)
 
-# **How To Use:**
-1. Clone the repository to your local server.
-2. From [Open AI](platforms.openai.com) create your account if not. Generate an API Key store it in the file named API_KEY in this repository by removing the existing text.
-3. Using command prompt navigate to the location where this repository is stored.
-4. Or you can use the code editor of your choice, open this repository and use its associated terminal.
-5. In the command line install the following libraries :
-        _a. json_
-        _b. openai_
-        _c. pandas_
-        _d. matplotlib_
-        _e. streamlit_
-        _f. yfinance_
-    
-    (Note : You should have latest python preinstalled in your PC)
+## Features:
+1. Gives the real time price of the searched stock, fetched through the yahoo finance API to the user.
 
-    **To add the following libraries in Windows use following command**
+2. Plots the visualizations and graphs of the stock performance in the specified time period by the user.
 
-    ```pip install json openai==0.28 pandas matplotlib streamlit yfinance```
+3. Calculates **Simple Moving Average**(*SMA*), **Exponential Moving Average**(*EMA*), **Relative Strength Index**(*RSI*) and **Moving Average Convergence / Divergence**(*MACD*) for given time frame of a specific stock asked.
 
-    **To add the following libraries in MacOS use following command**
-    
-    ```pip3 install json openai==0.28 pandas matplotlib streamlit yfinance```
+## Installation & Setup:
+1. Clone the repository locally:
+```
+git clone https://github.com/SCube27/financial-ai-chatbot.git
+```
 
-6. Once the libraries are installed, navigate to the repo using command line or open it in your code editor and use its terminal. Type the following command :
-    ```streamlit run main.py```
+2. Install the required libraries:
+```
+pip install -r requirements.txt
+```
+
+3. From [Open AI](platforms.openai.com) create your account if not already present and generate an `API Key`.
+
+4. Create a file named `API_KEY` in this cloned reposeitory and paste the generated key from OpenAI.
+
+5. Run the model:
+```
+streamlit run main.py
+```
+
+6. Follow the link given in the console to access the chatbot.
 
 *** (Note: The OpenAi API requires some amount of credits. If using the API for first time the credits might be free else a small amount has to be paid to use API services and make model running.) ***
 
-# Thank You!
+### Outputs:
+- The outputs for the project are present in the outputs folder.
+
+### Thank You!
